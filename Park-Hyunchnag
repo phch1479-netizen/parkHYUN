@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응기 직접 설치형 가소제 자동 산가 측정기</title>
+    <style>
+        /* 페이지 기본 스타일 (디자인) */
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1.5px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #ffffff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #35424a;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            background: #e7e7e7;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-left: 5px solid #e8491d;
+            font-size: 1.1em;
+        }
+        .feature-list strong {
+            color: #e8491d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #35424a;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #35424a;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더: 페이지 제목 -->
+    <header>
+        <div class="container">
+            <h1>반응기 직접 설치형 가소제 자동 산가 측정기</h1>
+        </div>
+    </header>
+
+    <!-- 메인 콘텐츠 영역 -->
+    <div class="container">
+        <div class="main-content">
+            
+            <!-- [목표] 섹션 -->
+            <div class="section" id="goal">
+                <h2>[목표] 개발 개요</h2>
+                <p>
+                    가소제 생산 공정의 핵심 관리 지표인 <strong>산가(Acid Value)</strong>를 실시간으로 자동 측정하여 품질을 향상시키고 생산 효율을 극대화하는 것을 목표로 합니다. 본 시스템은 반응기에 직접 설치하여 위험한 샘플링 과정 없이 안전하고 정확한 데이터를 제공합니다.
+                </p>
+            </div>
+
+            <!-- [형식 및 규칙] 핵심 기능 섹션 -->
+            <div class="section" id="features">
+                <h2>[형식 및 규칙] 핵심 기능</h2>
+                <ul class="feature-list">
+                    <li>
+                        <strong>[형식] 고온 내성 센서 사용:</strong> 250°C 이상의 고온에서도 안정적으로 작동하는 내화학성, 내열성 센서를 사용하여 극한의 반응기 환경에서도 정확한 측정이 가능합니다.
+                    </li>
+                    <li>
+                        <strong>[규칙] 주기적 완전 자동 측정:</strong> 사용자가 설정한 주기(예: 10분, 30분, 1시간)에 따라 자동으로 시료 채취, 측정, 세척까지 전 과정이 무인으로 수행됩니다.
+                    </li>
+                    <li>
+                        <strong>[규칙] 자동화 장비 연동:</strong> PLC, DCS 등 기존 제어 시스템과 완벽하게 호환됩니다. 4-20mA, Modbus, Profibus 등 표준 산업용 통신 프로토콜을 지원하여 실시간 데이터 전송 및 공정 제어 연동이 용이합니다.
+                    </li>
+                    <li>
+                        <strong>In-situ(직접 설치) 방식:</strong> 반응기 노즐에 직접 프로브를 설치하여 별도의 샘플링 라인 없이 실시간으로 반응기 내부의 산가를 직접 측정하므로, 측정 지연 시간(Time Delay)이 없습니다.
+                    </li>
+                    <li>
+                        <strong>안전성 확보 및 원가 절감:</strong> 고온의 유해 화학물질을 직접 샘플링하는 위험한 수작업을 배제하여 작업장 안전을 확보하고, 불필요한 시약 및 분석 인력 비용을 절감합니다.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 기술 사양 섹션 -->
+            <div class="section" id="specifications">
+                <h2>기술 사양</h2>
+                <table>
+                    <tr>
+                        <th>항목</th>
+                        <th>사양</th>
+                    </tr>
+                    <tr>
+                        <td>측정 항목</td>
+                        <td>산가 (Acid Value, mg KOH/g)</td>
+                    </tr>
+                    <tr>
+                        <td>측정 방식</td>
+                        <td>자동 전위차 적정법 (Potentiometric Titration)</td>
+                    </tr>
+                    <tr>
+                        <td>설치 방식</td>
+                        <td>반응기 노즐 직접 삽입 (Flange Type)</td>
+                    </tr>
+                    <tr>
+                        <td>사용 가능 온도</td>
+                        <td>최대 250°C (사양에 따라 변경 가능)</td>
+                    </tr>
+                    <tr>
+                        <td>측정 주기</td>
+                        <td>10분 ~ 12시간 (사용자 설정 가능)</td>
+                    </tr>
+                    <tr>
+                        <td>출력 신호</td>
+                        <td>Analog 4-20mA, Modbus TCP/IP, Profibus DP</td>
+                    </tr>
+                    <tr>
+                        <td>재질 (Wetted Parts)</td>
+                        <td>SS316L, Hastelloy C-276, PEEK, Kalrez®</td>
+                    </tr>
+                    <tr>
+                        <td>전원</td>
+                        <td>AC 220V, 60Hz</td>
+                    </tr>
+                </table>
+            </div>
+
+             <!-- 문의 섹션 -->
+             <div class="section" id="contact">
+                <h2>도입 문의</h2>
+                <p>제품에 대한 자세한 정보나 기술 상담, 견적이 필요하시면 언제든지 연락 주시기 바랍니다.</p>
+                <ul>
+                    <li><strong>전화:</strong> 02-1234-5678</li>
+                    <li><strong>이메일:</strong> sales@yourcompany.com</li>
+                    <li><strong>홈페이지:</strong> www.yourcompany.com</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 푸터: 저작권 정보 -->
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
